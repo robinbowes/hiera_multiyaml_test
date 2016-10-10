@@ -1,0 +1,18 @@
+---
+:hierarchy:
+  - "nodes/%{node}"
+  - common
+
+:backends:
+  - multiyaml
+
+:multiyaml:
+  :backends:
+    - one
+    - two
+
+:one:
+  :datadir: ./one
+
+:two:
+  :datadir: ./two

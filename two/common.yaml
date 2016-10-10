@@ -1,0 +1,12 @@
+---
+role: two::common
+
+groups:
+  - 'two common item 1'
+  - 'two common item 2'
+
+bar: only in two
+
+both:
+  apple: in two
+  orange: in two

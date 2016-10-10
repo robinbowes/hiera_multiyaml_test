@@ -1,0 +1,12 @@
+---
+role: one::common
+
+groups:
+  - 'one common item 1'
+  - 'one common item 2'
+
+foo: only in one
+
+both:
+  apple: in one
+  pear: in one
